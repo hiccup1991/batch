@@ -5,6 +5,7 @@
 	<select id="testSelect" resultType="hashmap">
 		select *
 		from employees
+		where
 		first_name = #{first_name}
 	</select>
 	<select id="testSelect2" resultType="hashmap">
